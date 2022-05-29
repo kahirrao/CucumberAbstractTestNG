@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T10:22:13Z" name="Default suite" finished-at="2022-05-29T10:23:18Z" duration-ms="64245">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1869fbd2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-29T10:22:13Z" name="Default test" finished-at="2022-05-29T10:23:18Z" duration-ms="64245">
+      <class name="parallel.ParallelRun">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@1869fbd2]" started-at="2022-05-29T10:22:13Z" name="setUpClass" finished-at="2022-05-29T10:22:15Z" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1869fbd2]" started-at="2022-05-29T10:22:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-29T10:22:55Z" duration-ms="40175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Amazon Login Page Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Amazon Login Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1869fbd2]" started-at="2022-05-29T10:22:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-29T10:23:10Z" duration-ms="55341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Your order section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Amazon Your Order Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1869fbd2]" started-at="2022-05-29T10:22:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-29T10:23:04Z" duration-ms="49733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Amazon Login with correct credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Amazon Login Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1869fbd2]" started-at="2022-05-29T10:22:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-29T10:23:13Z" duration-ms="58759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pay Mobile Recharge Bill"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Amazon Mobile recharge Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@1869fbd2]" started-at="2022-05-29T10:22:15Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-29T10:23:11Z" duration-ms="55836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Your order page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Amazon Your Order Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@1869fbd2]" started-at="2022-05-29T10:23:13Z" name="tearDownClass" finished-at="2022-05-29T10:23:18Z" duration-ms="4222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
